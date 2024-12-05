@@ -19,16 +19,16 @@ function Main(){
         {id:6, img_url: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true", value_name:'Motivatio Daily b...' , value_detail:'Lorem'}
     ];
 
-    // const like2 = [
-    //     {id:2, img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true" , value_name: 'Weekly Motivatio...' , value_detail:'Lorem'},
-    //     {id:4, img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image8.png?raw=true" , value_name: 'MEDITATION SELF' , value_detail:'Lorem'},
-    //     {id:6, img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image7.png?raw=true" , value_name:'Words beyond act...'  , value_detail:'Lorem'},
-    //     {id:4+4, img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image6.png?raw=true" , value_name: 'The Alexa Show' , value_detail:'Lorem'},
-    //     {id:5+5, img_url: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true", value_name: 'The Stories of Ma...' , value_detail:'Lorem'},
-    //     {id:6, img_url: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true", value_name:'Motivatio Daily b...' , value_detail:'Lorem'}
-    // ];
+    const like2 = [
+        {id:2, img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true" , value_name: 'Weekly Motivatio...' , value_detail:'Lorem'},
+        {id:4, img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image8.png?raw=true" , value_name: 'MEDITATION SELF' , value_detail:'Lorem'},
+        {id:6, img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image7.png?raw=true" , value_name:'Words beyond act...'  , value_detail:'Lorem'},
+        {id:4+4, img_url:"https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image6.png?raw=true" , value_name: 'The Alexa Show' , value_detail:'Lorem'},
+        {id:5+5, img_url: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true", value_name: 'The Stories of Ma...' , value_detail:'Lorem'},
+        {id:6, img_url: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true", value_name:'Motivatio Daily b...' , value_detail:'Lorem'}
+    ];
 
-    // const evenlike = like2.filter(item => item.id % 2 == 0);
+    const evenlike = like2.filter(item => item.id % 2 == 0);
 
     return(
         <>
@@ -95,7 +95,7 @@ function Main(){
 
                 <div className="largimg">
 
-                    {
+                    {/* {
                         like.map((i)=>(
                             <div className="larg">
                                   <div className="larimg_"><img className="largeicon" src={i.img_url} alt=""/></div>
@@ -104,9 +104,9 @@ function Main(){
                                     <div className="lartext2">{i.value_detail}</div>
                             </div>
                         ))
-                    }
+                    } */}
 
-                        {/* {
+                        {
                         evenlike.map((i)=>(
                             <div className="larg">
                                   <div className="larimg_"><img className="largeicon" src={i.img_url} alt=""/></div>
@@ -115,7 +115,7 @@ function Main(){
                                     <div className="lartext2">{i.value_detail}</div>
                             </div>
                         ))
-                    } */}
+                    }
 
                     
                     {/* <div className="larg">
