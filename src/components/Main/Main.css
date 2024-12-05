@@ -1,0 +1,134 @@
+
+  /* .main2{
+    width: 80vw;
+
+  } */
+.nav{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+    height: 4%;
+  
+ 
+ 
+ }
+ /* .nav1{
+     width: 20%;
+     height: 10%;
+ } */
+ .rig_but{
+   
+    
+     display: grid;
+     justify-items: flex-start;
+     margin-left: 4%;
+    
+ }
+ .rig_but1{
+     margin-top: .3%;
+     max-width: 90%;
+     max-height: 20%;
+     display: grid;
+     justify-items: flex-start;
+    
+ }
+ .lef_but{
+   
+    
+     display: grid;
+     justify-items: flex-end;
+    
+ }
+ .lef_but1{
+     margin-top: 1%;
+     max-width: 90%;
+     max-height: 20%;
+     display: grid;
+     justify-items: flex-start;
+    
+ }
+ .gm{
+     display: grid;
+     grid-column: 1/3;
+     color: white;
+     font-family: system-ui;
+     font-size: 200%;
+     margin-left: 4%;
+     font-weight: bold;
+ }
+ .img{
+     display: grid;
+     grid-template-columns: 26% 26% 26% 26% ;
+     grid-template-rows: 75% 75%;
+     
+     
+     margin-left: 4%;
+     margin-top: 2%;
+ }
+ .img_part{
+    display: grid;
+    grid-template-columns:30% 70% ;
+ }
+ .largeicon{
+     max-width: 100%;
+     
+     
+ }
+ .text{
+     width: 90%;
+     height: 63.5%;
+     background-color: #303030;
+     background-repeat: no-repeat;
+     color: white;
+     display: grid;
+     font-family: system-ui;
+     align-items: center;
+     margin-right: 40%;
+ }
+ .whitetex{
+     margin-left: 4%;
+ }
+ .like{
+     margin-top: 10%;
+     display: grid;
+     grid-column: 1/3;
+     color: white;
+     font-family: system-ui;
+     font-size: 150%;
+     margin-left: 4%;
+     font-weight: bold;
+ }
+ .largimg{
+     display: grid;
+     grid-template-columns: 17% 17% 17% 17% 17% 17%;
+     margin-left: 4%;
+     
+     
+ }
+ .larg{
+     background-color: #181818;
+     display: grid;
+     justify-items: center;
+     align-items: center;
+     margin-left: 4%;
+     margin-top: 30%;
+ }
+ .larimg_{
+     margin-top: 8%;
+     border-radius: 2%;
+     margin: 8% 8% 8% 8% ;
+ 
+ }
+ .lartext1{
+ font-size: 100%;
+ color: white;
+ font-family: system-ui;
+ 
+ }
+ .lartext2{
+     font-size: 80%;
+     color: white;
+     font-family: system-ui;
+   
+     
+     }
